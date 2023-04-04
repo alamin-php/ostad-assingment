@@ -56,7 +56,7 @@ header nav ul li a {
 
 /* featured area  */
 .featured{
-	margin: 80px 0px;
+	margin: 50px 0px;
 	overflow: hidden;
 }
 .featured-area {
@@ -263,5 +263,69 @@ header nav ul li a {
   .contact-box p{
 	font-size: 18px;
 	margin: 20px 0px;
-
   }
+
+/* mobile responsive  */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	/* body{background-color: #c32aa3;} */
+	.container {
+		width: 100%;
+	}
+	header .logo {
+		margin-left: 5px;
+	}
+	.featured-area .featured-post {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.featured {
+		margin: 10px 0px;
+	}
+	.content {
+		width: 100%;
+		float: none;
+	}
+	.sidebar {
+		width: 100%;
+		float: none;
+	}
+	.content .featured-area .featured-post {
+		width: 100%;
+		float: none;
+	}
+	.sidebar {
+		width: 100%;
+		float: none;
+		margin-left: 10px;
+	}
+	.contact-area {
+		margin: 10px 0px;
+	}
+	.contact-info {
+		width: 100%;
+		float: none;
+	}
+	.contact-form {
+		width: 100%;
+		float: none;
+		padding: 10px;
+	}
+	.contact-info {
+		width: 100%;
+		float: none;
+		padding: 10px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

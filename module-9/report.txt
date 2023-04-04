@@ -1,0 +1,6 @@
+Yes, I was implementing my blog site design 
+and development then i have some challenges,
+1. Mobile responsive (solve)
+2. Contact form PHP script validation
+
+All of challenges has overcame using online (Google) help
