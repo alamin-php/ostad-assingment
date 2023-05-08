@@ -1,0 +1,10 @@
+/* Default styles for all screen sizes */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('/assets/images/background.jpg');
+  background-size: cover;
+}
+#result{
+  font-size: 22px;
+}

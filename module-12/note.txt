@@ -1,0 +1,1 @@
+deployed link: https://bmi-calculator-ostad-assignment.netlify.app/
