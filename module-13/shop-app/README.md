@@ -21,7 +21,8 @@ List the technologies, libraries, frameworks, or languages that you used to buil
 - Laravel
 ## Installation
 
-Use the following command and install a laravel brand new application on my local PC
+### Use the following command and install a laravel brand new application on my local PC
+
     composer global require laravel/installer
     laravel new shop-app
 
@@ -33,21 +34,13 @@ This will start the server and the application will be available at http://local
 
 Note: If you encounter any issues while installing or running the project locally, please refer to the project's documentation or reach out to the project maintainers for assistance.
 
-## Document the steps you took to install Laravel
+## Document the steps I took to install Laravel
 
 1. ## Open Laravel official web site
-     ![Open Laravel official web site](https://raw.githubusercontent.com/alamin-php/shop-app/master/documentation/laravel-offical-website.png)
+     ![Open Laravel official web site](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/laravel-offical-website-documetation.png?raw=true)
 
 2. ## Click Documentation
-     ![Click Documentation](https://raw.githubusercontent.com/alamin-php/shop-app/master/documentation/laravel-offical-website-documetation.png)
-3. ## Copy the code and paste my terminal
-
-     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/alamin-php/shop-app/master/documentation/install-command.png)
-     bash
-     
-     
-     ![Copy the code and paste my terminal](https://raw.githubusercontent.com/alamin-php/shop-app/master/documentation/laravel-install.png)
- 
+     ![Click Documentation](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/laravel-offical-website.png?raw=true)
 
 ## Laravel Folder Structure
 
