@@ -12,7 +12,7 @@ The shop-app is a simple Laravel project and updated versioin. I include Routing
 ## Application Demo
 The Shop App Project Home Page
 
-[![App](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-13/shop-app/public/assets/app-runing.png)]
+![Demo Video](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-13/shop-app/public/assets/app-runing.png)
 
 ## Technologies Used
 
@@ -75,12 +75,12 @@ Note: If you encounter any issues while installing or running the project locall
      This folder contains all of the third-party packages that your Laravel application depends on, including the Laravel framework itself.
 
 
-## Simple Route
+## Hello World Route
 
 1. ### I create simple route and it's named "hello".
 
-     ![Simple Route](https://raw.githubusercontent.com/alamin-php/shop-app/master/documentation/world.png)
+     ![Hello Route](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/web-route.PNG?raw=true)
 
 2. ### return "Hello World".
 
-     ![Simple Route Output](https://raw.githubusercontent.com/alamin-php/shop-app/master/documentation/world-output.png)
+     ![Hello World Route Output](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/hello-world.PNG?raw=true)
