@@ -37,13 +37,10 @@ Note: If you encounter any issues while installing or running the project locall
 ## Document the steps I took to install Laravel
 
 1. ## Open Laravel official web site
-     ![Open Laravel official web site](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/laravel-offical-website-documetation.png?raw=true)
-
+    ![Click Documentation](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/laravel-offical-website.png?raw=true)
 2. ## Click Documentation
-     ![Click Documentation](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/laravel-offical-website.png?raw=true)
-
+     ![Open Laravel official web site](https://github.com/alamin-php/ostad-assingment/blob/master/module-13/shop-app/public/assets/laravel-offical-website-documetation.png?raw=true)
 ## Laravel Folder Structure
-
 1. ### `app`:
      This folder contains the center of your Laravel application, including its models, regulators, specialist organizations, and other application-explicit code.
 
