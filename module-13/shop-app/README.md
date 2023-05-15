@@ -1,6 +1,4 @@
 # Shop-App | Laravel Installation and Folder Structure and Routing
-<!-- [Live Link](https://bmi-calculator-ostad.netlify.app) -->
-
 The shop-app is a simple Laravel project and updated versioin. I include Routing practice, Folder Structure, and Laravel Installation.
 
 And it's assignment projects of PHP and Larvel of OSTAD.
@@ -14,7 +12,7 @@ The shop-app is a simple Laravel project and updated versioin. I include Routing
 ## Application Demo
 The Shop App Project Home Page
 
-[![Demo Video](https://raw.githubusercontent.com/alamin-php/shop-app/master/documentation/laravel-install.png)](https://youtu.be/RYAh3rSyWHs)
+[![App](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-13/shop-app/public/assets/app-runing.png)]
 
 ## Technologies Used
 
@@ -30,7 +28,7 @@ Use the following command and install a laravel brand new application on my loca
     cd shop-app
 
     php artisan serve
-    
+
 This will start the server and the application will be available at http://localhost:8000/.
 
 Note: If you encounter any issues while installing or running the project locally, please refer to the project's documentation or reach out to the project maintainers for assistance.
