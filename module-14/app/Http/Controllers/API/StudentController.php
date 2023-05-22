@@ -40,6 +40,24 @@ class StudentController extends Controller
         return response()->json(['page' => $page]);
     }
 
+    public function imageUpload(Request $request){
+        if ($request->hasFile('avatar')) {
+            $file = $request->file('avatar');
+            $fileName = $file->getClientOriginalName();
+            $filePath = 'uploads/' . $fileName;
+            $file->storeAs('public', $filePath);
+            return response()->json([
+                'status'=>'success',
+                'message'=>'File uploaded successfully'
+            ],201);
+        } else {
+            return response()->json([
+                'status'=>404,
+                'message'=>'File upload faild'
+            ],404);
+        }
+    }
+
     /**
      * Display the specified resource.
      */

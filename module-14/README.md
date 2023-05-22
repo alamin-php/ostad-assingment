@@ -27,3 +27,9 @@ Create a JSON response in Laravel with the following data:
 ![Screenshot#04-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-04-1.png?raw=true)
 
 ![Screenshot#04-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-04-2.png?raw=true)
+### Question 5:
+You are implementing a file upload feature in your Laravel application. Write the code to handle a file upload named 'avatar' in the current request and store the uploaded file in the 'public/uploads' directory. Use the original filename for the uploaded file.
+### Answer:
+![Screenshot#04-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-1.png?raw=true)
+
+![Screenshot#04-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-2.png?raw=true)
