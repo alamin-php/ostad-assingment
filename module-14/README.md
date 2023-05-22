@@ -10,6 +10,6 @@ You have a Laravel application with a form that submits user information using a
 ### Question 2:
 In your Laravel application, you want to retrieve the value of the 'User-Agent' header from the current request. Write the code to accomplish this and store the value in a variable called $userAgent.
 ### Answer:
-![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot#02-1.png?raw=true)
+![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot%2302-1.png?raw=true)
 
-![Screenshot#02-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot#02-2.png?raw=true)
+![Screenshot#02-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot%2302-2.png?raw=true)
