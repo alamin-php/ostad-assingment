@@ -12,7 +12,11 @@ class StudentController extends Controller
      */
     public function index()
     {
-        //
+        $data = ["name"=>"John Doe", "age"=>25];
+        return response()->json([
+            'message'=>'Success',
+            'data'=>$data
+        ]);
     }
 
     /**
