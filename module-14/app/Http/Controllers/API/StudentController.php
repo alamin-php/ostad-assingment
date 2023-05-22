@@ -24,6 +24,12 @@ class StudentController extends Controller
         return $name;
     }
 
+    public function userAgent(Request $request)
+    {
+        $userAgent = $request->header('User-Agent');
+        return $userAgent;
+    }
+
     /**
      * Display the specified resource.
      */
