@@ -12,10 +12,10 @@ class StudentController extends Controller
      */
     public function index()
     {
-        $data = ["name"=>"John Doe", "age"=>25];
+        $data = ["name" => "John Doe", "age" => 25];
         return response()->json([
-            'message'=>'Success',
-            'data'=>$data
+            'message' => 'Success',
+            'data' => $data
         ]);
     }
 
@@ -40,22 +40,29 @@ class StudentController extends Controller
         return response()->json(['page' => $page]);
     }
 
-    public function imageUpload(Request $request){
+    public function imageUpload(Request $request)
+    {
         if ($request->hasFile('avatar')) {
             $file = $request->file('avatar');
             $fileName = $file->getClientOriginalName();
             $filePath = 'uploads/' . $fileName;
             $file->storeAs('public', $filePath);
             return response()->json([
-                'status'=>'success',
-                'message'=>'File uploaded successfully'
-            ],201);
+                'status' => 'success',
+                'message' => 'File uploaded successfully'
+            ], 201);
         } else {
             return response()->json([
-                'status'=>404,
-                'message'=>'File upload faild'
-            ],404);
+                'status' => 404,
+                'message' => 'File upload faild'
+            ], 404);
         }
+    }
+
+    public function retrieveRememberToken(Request $request)
+    {
+        $rememberToken = $request->cookie('remember_token', null);
+        return $rememberToken;
     }
 
     /**

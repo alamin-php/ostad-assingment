@@ -30,6 +30,12 @@ Create a JSON response in Laravel with the following data:
 ### Question 5:
 You are implementing a file upload feature in your Laravel application. Write the code to handle a file upload named 'avatar' in the current request and store the uploaded file in the 'public/uploads' directory. Use the original filename for the uploaded file.
 ### Answer:
-![Screenshot#04-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-1.png?raw=true)
+![Screenshot#05-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-1.png?raw=true)
 
-![Screenshot#04-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-2.png?raw=true)
+![Screenshot#05-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-2.png?raw=true)
+### Question 6:
+Retrieve the value of the 'remember_token' cookie from the current request in Laravel and store it in a variable called $rememberToken. If the cookie is not present, set $rememberToken to null.
+### Answer:
+![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-06-1.png?raw=true)
+
+![Screenshot#06-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-06-2.png?raw=true)
