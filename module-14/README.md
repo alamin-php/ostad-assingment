@@ -39,3 +39,14 @@ Retrieve the value of the 'remember_token' cookie from the current request in La
 ![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-06-1.png?raw=true)
 
 ![Screenshot#06-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-06-2.png?raw=true)
+
+### Question 7:
+Create a route in Laravel that handles a POST request to the '/submit' URL. Inside the route closure, retrieve the 'email' input parameter from the request and store it in a variable called $email. Return a JSON response with the following data:
+{
+    "success": true,
+    "message": "Form submitted successfully."
+}
+### Answer:
+![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-07-1.png?raw=true)
+
+![Screenshot#06-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-07-2.png?raw=true)

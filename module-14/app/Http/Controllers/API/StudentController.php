@@ -65,6 +65,19 @@ class StudentController extends Controller
         return $rememberToken;
     }
 
+    public function formSubmit(Request $request)
+    {
+        $email = $request->input('email');
+
+        return response()->json([
+            'success' => 'true',
+            'message' => 'Form submitted successfully.',
+            'data' => [
+                'email' => $email,
+            ],
+        ]);
+    }
+
     /**
      * Display the specified resource.
      */
