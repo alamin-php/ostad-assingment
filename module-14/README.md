@@ -13,3 +13,11 @@ In your Laravel application, you want to retrieve the value of the 'User-Agent' 
 ![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot%2302-1.png?raw=true)
 
 ![Screenshot#02-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot%2302-2.png?raw=true)
+### Question 3:
+You are building an API endpoint in Laravel that accepts a GET request with a 'page' query parameter. Write the code to retrieve the value of the 'page' parameter from the current request and store it in a variable called $page. If the parameter is not present, set $page to null.
+### Answer:
+![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-03-1.png?raw=true)
+
+![Screenshot#02-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-03-2.png?raw=true)
+
+![Screenshot#02-3](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-03-3.png?raw=true)
