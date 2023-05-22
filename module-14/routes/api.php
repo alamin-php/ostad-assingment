@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('student',[StudentController::class,'store']);
 Route::post('user-agent',[StudentController::class,'userAgent']);
+Route::get('test-api-endpoint',[StudentController::class,'apiEndpoint']);

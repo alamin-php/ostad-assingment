@@ -30,6 +30,12 @@ class StudentController extends Controller
         return $userAgent;
     }
 
+    public function apiEndpoint(Request $request)
+    {
+        $page = $request->query('page', null);
+        return response()->json(['page' => $page]);
+    }
+
     /**
      * Display the specified resource.
      */
