@@ -5,7 +5,7 @@
 You have a Laravel application with a form that submits user information using a POST request. Write the code to retrieve the 'name' input field value from the request and store it in a variable called $name.
 ### Answer:
 Screenshot#01
-(https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/Qus-to-Ans-1no.png?raw=true)
+![Screenshot#01](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/Qus-to-Ans-1no.png?raw=true)
 
 Screenshot#02
-(https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshoot1.1.png?raw=true)
+![Screenshot#02](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshoot1.1.png?raw=true)
