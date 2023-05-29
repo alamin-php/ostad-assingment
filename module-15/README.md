@@ -30,9 +30,7 @@ Create a global middleware that logs the request method and URL for every incomi
 ### Task 4: Route Middleware
 Create a route group for authenticated users only. This group should include routes for /profile and /settings. Apply a middleware called AuthMiddleware to the route group to ensure only authenticated users can access these routes.
 ### Answer:
-![Screenshot#04-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-04-1.png?raw=true)
-
-![Screenshot#04-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-04-2.png?raw=true)
+![Screenshot#04-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-4-1.png)
 ### Task 5: Controller
 Create a controller called ProductController that handles CRUD operations for a resource called Product. Implement the following methods:
 
