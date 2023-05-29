@@ -26,7 +26,7 @@ Create a global middleware that logs the request method and URL for every incomi
 ### Answer:
 ![Screenshot#03-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-3-1.png)
 
-![Screenshot#03-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-2-2.png)
+![Screenshot#03-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-3-2.png)
 ### Task 4: Route Middleware
 Create a route group for authenticated users only. This group should include routes for /profile and /settings. Apply a middleware called AuthMiddleware to the route group to ensure only authenticated users can access these routes.
 ### Answer:
