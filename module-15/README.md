@@ -20,9 +20,7 @@ password: required, string, minimum length 8.
 ### Task 2: Request Redirect
 Create a route /home that redirects to /dashboard using a 302 redirect.
 ### Answer:
-![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot%2302-1.png?raw=true)
-
-![Screenshot#02-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot%2302-2.png?raw=true)
+![Screenshot#02-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-2-1.png)
 ### Task 3: Global Middleware
 Create a global middleware that logs the request method and URL for every incoming request. Log the information to the Laravel log file.
 ### Answer:
