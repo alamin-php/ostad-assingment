@@ -24,11 +24,9 @@ Create a route /home that redirects to /dashboard using a 302 redirect.
 ### Task 3: Global Middleware
 Create a global middleware that logs the request method and URL for every incoming request. Log the information to the Laravel log file.
 ### Answer:
-![Screenshot#03-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-03-1.png?raw=true)
+![Screenshot#03-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-3-1.png)
 
-![Screenshot#03-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-03-2.png?raw=true)
-
-![Screenshot#03-3](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-03-3.png?raw=true)
+![Screenshot#03-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-2-2.png)
 ### Task 4: Route Middleware
 Create a route group for authenticated users only. This group should include routes for /profile and /settings. Apply a middleware called AuthMiddleware to the route group to ensure only authenticated users can access these routes.
 ### Answer:
