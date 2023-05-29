@@ -10,9 +10,13 @@ email: required, valid email format.
 password: required, string, minimum length 8.
 ### Answer:
 
-![Screenshot#01](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/Qus-to-Ans-1no.png?raw=true)
+![Screenshot#01](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-1.png)
 
-![Screenshot#02](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshoot1.1.png?raw=true)
+![Screenshot#02](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-2.png)
+
+![Screenshot#03](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-3.png)
+
+![Screenshot#04](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-4.png)
 ### Task 2: Request Redirect
 Create a route /home that redirects to /dashboard using a 302 redirect.
 ### Answer:
