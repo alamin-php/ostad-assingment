@@ -22,8 +22,8 @@ Route::get('/home', function () {
 });
 
 
-Route::middleware(['AuthMiddleware'])->group(function () {
-    // Routes accessible to authenticated users only
-    Route::get('/profile', 'ProfileController@index');
-    Route::get('/settings', 'SettingsController@index');
-});
+// Route::middleware(['AuthMiddleware'])->group(function () {
+//     // Routes accessible to authenticated users only
+//     Route::get('/profile', 'ProfileController@index');
+//     Route::get('/settings', 'SettingsController@index');
+// });

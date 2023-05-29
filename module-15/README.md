@@ -47,9 +47,19 @@ update($id): Update the specified product.
 destroy($id): Delete the specified product.
 
 ### Answer:
-![Screenshot#05-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-1.png?raw=true)
+![Screenshot#05-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-1.png)
 
-![Screenshot#05-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-05-2.png?raw=true)
+![Screenshot#05-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-2.png)
+
+![Screenshot#05-3](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-3.png)
+
+![Screenshot#05-4](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-4.png)
+
+![Screenshot#05-5](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-5.png)
+
+![Screenshot#05-6](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-6.png)
+
+![Screenshot#05-7](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-7.png)
 ### Task 6: Single Action Controller
 Create a single action controller called ContactController that handles a contact form submission. Implement the __invoke() method to process the form submission and send an email to a predefined address with the submitted data.
 ### Answer:
