@@ -63,9 +63,9 @@ destroy($id): Delete the specified product.
 ### Task 6: Single Action Controller
 Create a single action controller called ContactController that handles a contact form submission. Implement the __invoke() method to process the form submission and send an email to a predefined address with the submitted data.
 ### Answer:
-![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-06-1.png?raw=true)
+![Screenshot#06-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-6-1.png)
 
-![Screenshot#06-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-06-2.png?raw=true)
+![Screenshot#06-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-6-2.png)
 
 ### Task 7: Resource Controller
 Create a resource controller called PostController that handles CRUD operations for a resource called Post. Ensure that the controller provides the necessary methods for the resourceful routing conventions in Laravel.
