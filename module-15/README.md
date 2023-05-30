@@ -77,6 +77,6 @@ Create a resource controller called PostController that handles CRUD operations 
 ### Task 8: Blade Template Engine
 Create a Blade view called welcome.blade.php that includes a navigation bar and a section displaying the text "Welcome to Laravel!".
 ### Answer:
-![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-07-1.png?raw=true)
+![Screenshot#08-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-8-1.png)
 
-![Screenshot#06-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-14/public/assets/screenshot-07-2.png?raw=true)
+![Screenshot#08-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-8-2.png)
