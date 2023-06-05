@@ -7,13 +7,8 @@ Create a new Laravel project named "MigrationAssignment" using the Laravel comma
 
 ### Answer:
 
-![Screenshot#01](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-1.png)
+![Screenshot#01](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-1-1.png?raw=true)
 
-![Screenshot#02](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-2.png)
-
-![Screenshot#03](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-3.png)
-
-![Screenshot#04](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-1-4.png)
 ### Task 2:
 Within the project, create a new migration file named "create_products_table" that will be responsible for creating a table called "products" in the database. The "products" table should have the following columns:
 
@@ -31,40 +26,27 @@ created_at: a timestamp column to store the creation date and time.
 updated_at: a timestamp column to store the last update date and time.
 
 ### Answer:
-![Screenshot#02-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-2-1.png)
+![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-2-1.png?raw=true)
 ### Task 3:
 After creating the migration file, run the migration to create the "products" table in the database.
 ### Answer:
-![Screenshot#03-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-3-1.png)
-
-![Screenshot#03-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-3-2.png)
+![Screenshot#03-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-3-1.png?raw=true)
 ### Task 4:
 Modify the existing migration file "create_products_table" to add a new column called "quantity" to the "products" table. The "quantity" column should be an integer column and allow null values.
 ### Answer:
-![Screenshot#04-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-4-1.png)
+![Screenshot#04-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-4-1.png?raw=true)
+![Screenshot#04-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-4-2.png?raw=true)
+
 ### Task 5:
 Create a new migration file named "add_category_to_products_table" that will be responsible for adding a new column called "category" to the "products" table. The "category" column should be a string column with a maximum length of 50 characters.
 
 ### Answer:
-![Screenshot#05-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-1.png)
+![Screenshot#05-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/5-1-1.png?raw=true)
 
-![Screenshot#05-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-2.png)
-
-![Screenshot#05-3](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-3.png)
-
-![Screenshot#05-4](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-4.png)
-
-![Screenshot#05-5](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-5.png)
-
-![Screenshot#05-6](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-6.png)
-
-![Screenshot#05-7](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-5-7.png)
 ### Task 6:
 After creating the new migration file, run the migration to add the "category" column to the "products" table.
 ### Answer:
 ![Screenshot#06-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-6-1.png)
-
-![Screenshot#06-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-6-2.png)
 
 ### Task 7:
 Create a new migration file named "create_orders_table" that will be responsible for creating a table called "orders" in the database. The "orders" table should have the following columns:
@@ -79,9 +61,7 @@ created_at: a timestamp column to store the creation date and time.
 
 updated_at: a timestamp column to store the last update date and time.
 ### Answer:
-![Screenshot#07-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-7-1.png)
-
-![Screenshot#07-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-7-2.png)
+![Screenshot#07-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/7-1-1.png?raw=true)
 
 ### Task 8:
 After creating the migration file for the "orders" table, run the migration to create the "orders" table in the database.
