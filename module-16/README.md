@@ -46,7 +46,7 @@ Create a new migration file named "add_category_to_products_table" that will be 
 ### Task 6:
 After creating the new migration file, run the migration to add the "category" column to the "products" table.
 ### Answer:
-![Screenshot#06-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-6-1.png)
+![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/6-1-1.png?raw=true)
 
 ### Task 7:
 Create a new migration file named "create_orders_table" that will be responsible for creating a table called "orders" in the database. The "orders" table should have the following columns:
@@ -66,6 +66,5 @@ updated_at: a timestamp column to store the last update date and time.
 ### Task 8:
 After creating the migration file for the "orders" table, run the migration to create the "orders" table in the database.
 ### Answer:
-![Screenshot#08-1](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-8-1.png)
+![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
 
-![Screenshot#08-2](https://raw.githubusercontent.com/alamin-php/ostad-assingment/master/module-15/public/images/a-8-2.png)
