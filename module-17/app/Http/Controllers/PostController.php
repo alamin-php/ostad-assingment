@@ -39,4 +39,12 @@ class PostController extends Controller
         $posts = DB::table('posts')->where('id', 2)->pluck('description');
         echo $posts;
     }
+
+
+    public function userByid(){
+        $user = DB::table('users')->find(1);
+        return $user;
+    }
+
+
 }

@@ -38,8 +38,13 @@ Write the code to retrieve the "description" column from the "posts" table where
 ### Task 6:
 Explain the difference between the first() and find() methods in Laravel's query builder. How are they used to retrieve single records?
 ### Answer:
-![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/6-1-1.png?raw=true)
+first(): The first() method is used to retrieve the first record that matches the query conditions from a table. It returns a single object representing the record or null if no matching record is found. It is typically used when you want to retrieve the first record based on certain conditions, such as ordering or filtering.
 
+![Screenshot#06-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-6-1.PNG?raw=true)
+
+find(): The find() method is used to retrieve a record by its primary key value. It expects the primary key value as an argument and returns the corresponding record if found, or null if no record is found. It is typically used when you know the primary key value and want to directly fetch the record by that value.
+
+![Screenshot#06-2](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-6-2.PNG?raw=true)
 ### Task 7:
 Write the code to retrieve the "title" column from the "posts" table using Laravel's query builder. Store the result in the $posts variable. Print the $posts variable.
 ### Answer:
