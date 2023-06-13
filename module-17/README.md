@@ -48,38 +48,48 @@ find(): The find() method is used to retrieve a record by its primary key value.
 ### Task 7:
 Write the code to retrieve the "title" column from the "posts" table using Laravel's query builder. Store the result in the $posts variable. Print the $posts variable.
 ### Answer:
-![Screenshot#07-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/7-1-1.png?raw=true)
+![Screenshot#07-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-7-1.PNG?raw=true)
 
 ### Task 8:
 Write the code to insert a new record into the "posts" table using Laravel's query builder. Set the "title" and "slug" columns to 'X', and the "excerpt" and "description" columns to 'excerpt' and 'description', respectively. Set the "is_published" column to true and the "min_to_read" column to 2. Print the result of the insert operation.
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-8-1.PNG?raw=true)
 
 ### Task 9:
 Write the code to update the "excerpt" and "description" columns of the record with the "id" of 2 in the "posts" table using Laravel's query builder. Set the new values to 'Laravel 10'. Print the number of affected rows.
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+![Screenshot#09-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-9-1.PNG?raw=true)
 ### Task 10:
 Write the code to delete the record with the "id" of 3 from the "posts" table using Laravel's query builder. Print the number of affected rows.
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+![Screenshot#10-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-10-1.PNG?raw=true)
 ### Task 11:
 Explain the purpose and usage of the aggregate methods count(), sum(), avg(), max(), and min() in Laravel's query builder. Provide an example of each.
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+The aggregate methods in Laravel's query builder (count(), sum(), avg(), max(), and min()) are used to perform calculations on a column or set of columns in a database table. These methods allow you to retrieve statistical information or perform aggregate operations on your data.
+
+1. count(): The count() method is used to retrieve the number of records in a table or the number of occurrences of a specific column value.
+
+2. sum(): The sum() method is used to calculate the sum of the values in a column.
+
+3. avg(): The avg() method is used to calculate the average value of a column.
+
+4. max(): The max() method is used to retrieve the maximum value from a column.
+
+5. min(): The min() method is used to retrieve the minimum value from a column.
 ### Task 12:
 Describe how the whereNot() method is used in Laravel's query builder. Provide an example of its usage.
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+![Screenshot#12-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-12-1.PNG?raw=true)
 ### Task 13:
 Explain the difference between the exists() and doesntExist() methods in Laravel's query builder. How are they used to check the existence of records?
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+![Screenshot#13-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-13-1.PNG?raw=true)
 ### Task 14:
 Write the code to retrieve records from the "posts" table where the "min_to_read" column is between 1 and 5 using Laravel's query builder. Store the result in the $posts variable. Print the $posts variable.
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+![Screenshot#14-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-14-1.PNG?raw=true)
 ### Task 15:
 Write the code to increment the "min_to_read" column value of the record with the "id" of 3 in the "posts" table by 1 using Laravel's query builder. Print the number of affected rows.
 ### Answer:
-![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/8-1-1.png?raw=true)
+![Screenshot#08-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-15-1.PNG?raw=true)
