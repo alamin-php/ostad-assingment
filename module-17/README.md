@@ -7,17 +7,23 @@ Explain what Laravel's query builder is and how it provides a simple and elegant
 
 ### Answer:
 
-![Screenshot#01](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-1-1.png?raw=true)
+Laravel's query builder is a feature of the Laravel PHP framework that provides a simple and elegant way to interact with databases. It allows you to build and execute database queries using a fluent, chainable interface, making it easier to retrieve and manipulate data from your database.
+
+The query builder abstracts the underlying database engine, allowing you to write database-agnostic code. It supports various database systems such as MySQL, PostgreSQL, SQLite, and SQL Server. This means you can write the same code to interact with different databases without needing to worry about the differences in syntax or query structure.
 
 ### Task 2:
 Write the code to retrieve the "excerpt" and "description" columns from the "posts" table using Laravel's query builder. Store the result in the $posts variable. Print the $posts variable.
 
 ### Answer:
-![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-2-1.png?raw=true)
+![Screenshot#02-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-2-1.png?raw=true)
 ### Task 3:
 Describe the purpose of the distinct() method in Laravel's query builder. How is it used in conjunction with the select() method?
 ### Answer:
-![Screenshot#03-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-3-1.png?raw=true)
+The distinct() method in Laravel's query builder is used to retrieve only the unique rows from a result set. It ensures that duplicate rows are eliminated, and only distinct rows are returned in the query results.
+When used in conjunction with the select() method, the distinct() method affects the columns specified in the select() method. It modifies the query to consider only distinct values for those columns when retrieving data.
+Here's an example to illustrate how distinct() and select() work together:
+
+![Screenshot#03-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-3-1.png?raw=true)
 ### Task 4:
 Write the code to retrieve the first record from the "posts" table where the "id" is 2 using Laravel's query builder. Store the result in the $posts variable. Print the "description" column of the $posts variable.
 ### Answer:
