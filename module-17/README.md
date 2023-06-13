@@ -27,13 +27,13 @@ Here's an example to illustrate how distinct() and select() work together:
 ### Task 4:
 Write the code to retrieve the first record from the "posts" table where the "id" is 2 using Laravel's query builder. Store the result in the $posts variable. Print the "description" column of the $posts variable.
 ### Answer:
-![Screenshot#04-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/a-4-1.png?raw=true)
+![Screenshot#04-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-4-1.PNG?raw=true)
 
 ### Task 5:
 Write the code to retrieve the "description" column from the "posts" table where the "id" is 2 using Laravel's query builder. Store the result in the $posts variable. Print the $posts variable.
 
 ### Answer:
-![Screenshot#05-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-16/public/images/5-1-1.png?raw=true)
+![Screenshot#05-1](https://github.com/alamin-php/ostad-assingment/blob/master/module-17/public/images/a-5-1.PNG?raw=true)
 
 ### Task 6:
 Explain the difference between the first() and find() methods in Laravel's query builder. How are they used to retrieve single records?

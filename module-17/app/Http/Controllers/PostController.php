@@ -15,6 +15,15 @@ class PostController extends Controller
 
         print_r($posts);
     }
+
+    public function post()
+    {
+        $posts = DB::table('posts')->where('id', 2)->first();
+        echo $posts->description;
+
+        print_r($posts);
+    }
+
     public function uniqueUsers()
     {
         $posts = DB::table('users')
@@ -23,5 +32,11 @@ class PostController extends Controller
         ->get();
 
         print_r($posts);
+    }
+
+
+    public function post1(){
+        $posts = DB::table('posts')->where('id', 2)->pluck('description');
+        echo $posts;
     }
 }
