@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/posts/{id}/delete', [PostController::class, 'delete'])->name('posts.delete');
+Route::get('/categories/{id}/posts', [CategoryController::class, 'getPosts'])->name('categories.posts');
