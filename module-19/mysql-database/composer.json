@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "d9c02af6-88a0-457f-abcd-992a77bb4c5b",
+		"name": "simple-blog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26346363"
+	},
+	"item": [
+		{
+			"name": "PostList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/PostList",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"PostList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SinglePost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/SinglePost/25",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"SinglePost",
+						"25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/PostUser/2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"PostUser",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostShowComment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/PostShowComment/25",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"PostShowComment",
+						"25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostCreateComment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"post_id\": \"2sssss\",\r\n    \"content\": \"sad121221\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/PostCreateComment/2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"PostCreateComment",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
