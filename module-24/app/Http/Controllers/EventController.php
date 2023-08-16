@@ -13,7 +13,8 @@ class EventController extends Controller
      */
     public function index()
     {
-        return Event::all();
+        $eventData = Event::all();
+        return view('events.event-list',['eventData'=>$eventData]);
     }
 
     /**
